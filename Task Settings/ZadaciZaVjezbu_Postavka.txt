@@ -1,0 +1,12 @@
+Vježba 1
+a) Kreirati bazu podataka pod nazivom ZadaciZaVjezbu.
+b) U pomenutuj bazi kreirati tabelu Aplikant koja ce sadrzavati sljedeće kolone: Ime, Prezime i MjestoRodjenja. Sva navedena polja trebaju da budu tekstualnog tipa, te prilikom kreiranja istih paziti da se ne zauzimaju bespotrebno memorijski resursi.
+c) U tabelu aplikant dodati kolonu AplikantID, te je proglasiti primarnim ključem tabele (kolona mora biti autoinkrement).
+d) U bazi ZadaciZaVjezbu kreirati tabelu Projekat koji će sadržavati sljedeće kolone: NazivProjekta, AkronimProjekta, SvrhaProjekta i CiljProjekta. Sva polja u tabeli su tekstualnog tipa te prilikom kreiranja istih paziti da se me zauzimaju bespotrebno memorijski resursi. Sva navedena polja osim cilja projekta moraju imati vrijednost.
+e) U tabelu Projekat dodati kolonu ProjekatID, te je proglasiti primarnim ključem tabele.
+f) U tabelu Aplikant dodati kolonu ProjekatID koje će biti spoljni ključ na tabelu Projekat.
+g) U bazi podataka ZadaciZaVjezbu kreirati tabelu TematskaOblast koja će sadržavati sljedeća polja: TematskaOblastID, Naziv, Opseg. TematskaOblastID predstavlja primarni ključ tabele, te se automatski uvećava. Sva definisana polja moraju imati vrijednost. Prilikom definisanja dužine polja potrebno je obratiti pažnju da se ne zauzimaju bespotrebno memorijski resursi.
+h) U tabeli Aplikant dodati polje Email koje je tekstualnog tipa i može ostati prazno.
+i) U tabeli Aplikant obrisati MjestoRodjenja i dodati polja Telefon i MaticniBroj. Oba novokreirana polja su tekstualnog tipa i moraju sadržavati vrijednost.
+j) Obrisati tabele kreirane u prethodnim zadacima.
+k) Obrisati kreiranu bazu.
